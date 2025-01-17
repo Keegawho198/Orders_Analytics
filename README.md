@@ -1,6 +1,6 @@
 # Orders_Analytics
 
-## overview
+## Overview
 
 
 This is an end-to-end data analytics project that utilizes Python and SQL to analyze and process sales data from a Kaggle dataset. The project involves cleaning and transforming data using pandas, loading the data into MySQL, and answering various business-related questions using SQL.
@@ -52,6 +52,7 @@ Copy
 
 Edit below
 {
+
     "host": "localhost",
 
     "port": 3306,
@@ -61,6 +62,7 @@ Edit below
     "password": "YOUR PASSWORD HERE",
 
     "database": "DATABASE TABLE NAME"
+
 }
 
 Note: The db_config file should be added to .gitignore to avoid sharing sensitive credentials in version control.
