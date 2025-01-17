@@ -18,7 +18,7 @@ REMOVED 'discount percent', 'list price' and 'cost price'. These columns were re
 
 We also changed the datatype for order_date to datetime format.
 
-Then we connected our MySQL database to our code, we originally let our code create a table in the database but that we making the database use the incorrect datatypes. So instead I dropped the table that was intially made then Created a new table in SQL with the correct datatypes. From this I then adjusted the code from replaced the table to append. From the the connection was successful.
+Then we connected our MySQL database to our code, we originally let the code create a table in the database but that was making the database use the incorrect datatypes. So instead I dropped the table that was intially made then Created a new table in SQL with the correct datatypes. From this I then adjusted the code from 'replaced' the table to 'append', From that the connection was successful.
 
 In order to not share passwords I used a db_config, which will not be included in this repo using .gitignore.
 
