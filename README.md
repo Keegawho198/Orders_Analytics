@@ -25,9 +25,13 @@ In order to not share passwords I used a db_config, which will not be included i
 db_config file should like this:
 
 host "localhost"
+
 port 3306
+
 user "YOUR USER NAME"
+
 password YOUR PASSWORD HERE"
+
 database "DATABASE TABLE NAME"
 
 
