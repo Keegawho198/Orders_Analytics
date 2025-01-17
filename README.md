@@ -9,7 +9,9 @@ Technologies Used:
 
 
 Python: Data cleaning and processing using pandas.
+
 SQL: Data analysis and querying in MySQL.
+
 MySQL Server: Database for storing and managing the dataset.
 
 
@@ -48,12 +50,16 @@ The db_config file should look like this:
 python
 Copy
 
-Edit
+Edit below
 {
     "host": "localhost",
+
     "port": 3306,
+
     "user": "YOUR USER NAME",
+
     "password": "YOUR PASSWORD HERE",
+
     "database": "DATABASE TABLE NAME"
 }
 
@@ -74,9 +80,11 @@ Highest Growth by Profit: Identified which subcategory had the highest profit gr
 
 ## Project Structure
 
-ETL.py: Python script for data cleaning, transformation, and loading into MySQL.
+Analysis.py: Python script for data cleaning, transformation, and loading into MySQL.
 
-queries.sql: SQL file containing the queries used to analyze the data.
+sql_exploration.sql: SQL file containing the queries used to analyze the data.
+
+create_sql_table: SQL for creating the table with correct datatypes
 
 db_config.py: Contains the database connection details (not included in the repo for security reasons).
 
